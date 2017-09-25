@@ -20,4 +20,6 @@ function solveQuadr(a, b, c) {
 }
 
 const result = solveQuadr(a, b, c);
+alert(result);
 document.write(result);
+
