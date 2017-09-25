@@ -14,6 +14,7 @@ function solveQuadr(a, b, c) {
         return 'x1 = ' + x1 + ', x2 = ' + x2;
     } else if (d === 0) {
         const x = (-b) / (2 * a);
+        return 'x =' + x;
     } else {
         return 'No roots';
     }
