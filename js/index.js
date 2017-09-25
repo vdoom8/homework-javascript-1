@@ -12,9 +12,11 @@ function solveQuadr(a, b, c) {
         const x1 = (-b + Math.sqrt(d)) / (2 * a);
         const x2 = (-b - Math.sqrt(d)) / (2 * a);
         return 'x1 = ' + x1 + ', x2 = ' + x2;
-    } else if (d === 0) {
+    }
+    else if (d === 0) {
         const x = (-b) / (2 * a);
-    } else {
+    }
+    else {
         return 'No roots';
     }
 }
