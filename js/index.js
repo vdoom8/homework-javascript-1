@@ -18,6 +18,6 @@ function solveQuadr(a, b, c) {
         return 'No roots';
     }
 }
- 
+
 const result = solveQuadr(a, b, c);
 document.write(result);
